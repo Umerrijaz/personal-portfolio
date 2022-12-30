@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--=============== BOXICONS ===============-->
+        <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title> Responsive portfolio website Umer </title>
+    </head>
+    <body>
+        <!--=============== HEADER ===============-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">Umer</a>
+
+                <div class="nav__menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">
+                                <i class='bx bx-home-alt nav__icon'></i>
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link">
+                                <i class='bx bx-user nav__icon' ></i>
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#skills" class="nav__link">
+                                <i class='bx bx-book nav__icon' ></i>
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#work" class="nav__link">
+                                <i class='bx bx-briefcase-alt-2 nav__icon' ></i>
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#contact" class="nav__link">
+                                <i class='bx bx-message-square-detail nav__icon'></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Theme change button -->
+                <i class='bx bx-moon change-theme' id="theme-button"></i>
+            </nav>
+        </header>
+
+        <!--=============== MAIN ===============-->
+        <main class="main">
+            <!--=============== HOME ===============-->
+            <section class="home section" id="home">
+                <div class="home__container container grid">
+                    <div class="home__data">
+                        <span class="home__greeting">Hello, I'm</span>
+                        <h1 class="home__name">Umer</h1>
+                        <h3 class="home__education">Frontend Developer</h3>
+
+                        <div class="home__buttons">
+                            <!-- Insert your CV -->
+                            <a download="" href="assets/pdf/my-resume.pdf" class="button button--ghost">
+                                Download CV
+                            </a>
+                            <a href="#about" class="button">About me</a>
+                        </div>
+                    </div>
+
+                    <div class="home__handle">
+                        <!-- Insert your image, according to the example size of the portfolio -->
+                    <lottie-player src="https://lottie.host/86d90565-ce27-41ae-bf57-3371d9e352e2/ex5Rnzd0TY.json" background="transparent" speed="1"
+                        style="width: 300px; height: 300px;" loop autoplay></lottie-player>
+                        <p>Placeholder</p>
+                    </div>
+
+                    <div class="home__social">
+                        <a href="https://www.linkedin.com/in/umer-ijaz-1b5902184/" target="_blank" class="home__social-link">
+                            <i class='bx bxl-linkedin-square'></i>
+                        </a>
+                        <a href="https://github.com/Umerrijaz?tab=repositories" target="_blank" class="home__social-link">
+                            <i class='bx bxl-github' ></i>
+                        </a>
+                        <a href="https://dribbble.com/umerillustrates" target="_blank" class="home__social-link">
+                            <i class='bx bxl-dribbble' ></i>
+                        </a>
+                    </div>
+
+                    <a href="#about" class="home__scroll">
+                        <i class='bx bx-mouse home__scroll-icon' ></i>
+                        <span class="home__scroll-name">Scroll Down</span>
+                    </a>
+                </div>
+            </section>
+            
+            <!--=============== ABOUT ===============-->
+            <section class="about section" id="about">
+                <span class="section__subtitle">My Intro</span>
+                <h2 class="section__title">About Me</h2>
+
+                <div class="about__container container grid">
+                    <!--Image by <a href="https://www.freepik.com/free-psd/3d-illustration-person-with-sunglasses_27470334.htm#query=avatar&position=15&from_view=search&track=sph">Freepik</a>-->
+                    <img src="assets/img/my-photo.jpg" alt="" class="about__img">
+
+                    <div class="about__data">
+                        <div class="about__info">
+                            <lottie-player src="https://assets9.lottiefiles.com/packages/lf20_w51pcehl.json"  background="transparent" speed="1" style="width: 300px; height: 300px;" loop 
+                                autoplay></lottie-player>
+                        </div>
+
+                        <p class="about__description">
+                            I am a frontend developer with a passion for design and 3D art. I have always been fascinated by the intersection of
+                            technology and creativity, and that's what led me to pursue a career in web development. I am constantly striving to learn and improve my skills in order to create visually appealing and user-friendly
+                            websites.
+                        </p>
+
+                        <a href="#contact" class="button">Contact Me</a>
+                    </div>
+                </div>
+            </section>
+
+            <!--=============== SKILLS ===============-->
+            <section class="skills section" id="skills">
+                <span class="section__subtitle">My abilities</span>
+                <h2 class="section__title">My Experience</h2>
+
+                <div class="skills__container container grid">
+                    <div class="skills__content">
+                        <h3 class="skills__title">Frontend Developer</h3>
+
+                        <div class="skills__box">
+                            <div class="skills__group">
+                                <div class="skills__data">
+                                    <i class='bx bxs-badge-check' ></i>
+    
+                                    <div>
+                                        <h3 class="skills__name">HTML</h3>
+                                        <span class="skills__level">Advanced</span>
+                                    </div>
+                                </div>
+    
+                                <div class="skills__data">
+                                    <i class='bx bxs-badge-check' ></i>
+    
+                                    <div>
+                                        <h3 class="skills__name">CSS</h3>
+                                        <span class="skills__level">Advanced</span>
+                                    </div>
+                                </div>
+    
+                                <div class="skills__data">
+                                    <i class='bx bxs-badge-check' ></i>
+    
+                                    <div>
+                                        <h3 class="skills__name">JavaScript</h3>
+                                        <span class="skills__level">Intermediate</span>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="skills__group">
+                                <div class="skills__data">
+                                    <i class='bx bxs-badge-check' ></i>
+    
+                                    <div>
+                                        <h3 class="skills__name">Vue</h3>
+                                        <span class="skills__level">Intermediate</span>
+                                    </div>
+                                </div>
+    
+                                <div class="skills__data">
+                                    <i class='bx bxs-badge-check' ></i>
+    
+                                    <div>
+                                        <h3 class="skills__name">Git</h3>
+                                        <span class="skills__level">Intermediate</span>
+                                    </div>
+                                </div>
+    
+                                <div class="skills__data">
+                                    <i class='bx bxs-badge-check'></i>
+                                    
+                                    <div>
+                                        <h3 class="skills__name">C</h3>
+                                        <span class="skills__level">Basic</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skills__content">
+                        <h3 class="skills__title">3D Graphic Design</h3>
+
+                        <div class="skills__box">
+                            <div class="skills__group">
+                                <div class="skills__data">
+                                    <i class='bx bxs-badge-check' ></i>
+    
+                                    <div>
+                                        <h3 class="skills__name">Audio Editing</h3>
+                                        <span class="skills__level">Intermediate</span>
+                                    </div>
+                                </div>
+    
+                                <div class="skills__data">
+                                    <i class='bx bxs-badge-check' ></i>
+    
+                                    <div>
+                                        <h3 class="skills__name">Video Editing</h3>
+                                        <span class="skills__level">Intermediate</span>
+                                    </div>
+                                </div>
+    
+                                <div class="skills__data">
+                                    <i class='bx bxs-badge-check' ></i>
+    
+                                    <div>
+                                        <h3 class="skills__name">Modelling</h3>
+                                        <span class="skills__level">Intermediate</span>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="skills__group">
+                                <div class="skills__data">
+                                    <i class='bx bxs-badge-check' ></i>
+    
+                                    <div>
+                                        <h3 class="skills__name">Animation</h3>
+                                        <span class="skills__level">Basic</span>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            
+            <!--=============== WORK ===============-->
+            <section class="work section" id="work">
+                <span class="section__subtitle">My Portfolio</span>
+                <h2 class="section__title">Recent Works</h2>
+
+                <div class="work__filters">
+                    <span class="work__item active-work" data-filter='all'>My Projects</span>
+                    
+                </div>
+
+                <div class="work__container container grid">
+                    <div class="work__card mix web">
+                        <!--<a href="https://www.freepik.com/free-vector/money-income-attraction_9176032.htm#query=income&position=19&from_view=search&track=sph">Image by pch.vector</a> on Freepik-->
+                        <img src="assets/img/income-tracker.jpg" alt="" class="work_img">
+                        <h3 class="work__title">Income Tracker</h3>
+                        <a href="https://github.com/Umerrijaz/word-scramble" target="_blank" class="contact__button">
+                            Link <i class='bx bxl-github contact__button-icon'></i>
+                        </a>
+                    </div>
+
+                    <div class="work__card mix movil">
+                        <!--<a href="https://www.freepik.com/free-vector/students-learning-foreign-language-with-vocabulary_11235885.htm#query=words&position=1&from_view=search&track=sph">Image by pch.vector</a> on Freepik-->
+                        <img src="assets/img/word-scramble.jpg" alt="" class="work_img">
+                        <h3 class="work__title">Word Scramble</h3>
+                        <a href="https://github.com/Umerrijaz/word-scramble" target="_blank" class="contact__button">
+                             Link <i class='bx bxl-github contact__button-icon'></i>
+                        </a>
+                    </div>
+
+                    <div class="work__card mix design">
+                        <!--<a href="https://www.freepik.com/free-vector/quiz-show-concept-illustration_27636700.htm#query=Quiz&position=25&from_view=search&track=sph">Image by storyset</a> on Freepik-->
+                        <img src="assets/img/quiz-app.jpg" alt="" class="work_img">
+                        <h3 class="work__title">Quiz App</h3>
+                        <a href="https://github.com/Umerrijaz/word-scramble" target="_blank" class="contact__button">
+                            Link <i class='bx bxl-github contact__button-icon'></i>
+                        </a>
+                    </div>
+
+                    <div class="work__card mix web">
+                        <!--Image by <a href="https://www.freepik.com/free-vector/diy-creative-workshop-concept_8398720.htm#query=rock%20paper%20scissor%20illustration&position=13&from_view=search&track=ais">Freepik</a>-->
+                        <img src="assets/img/rock-paper-scissor.jpg" alt="" class="work_img">
+                        <h3 class="work__title">Rock Paper Scissor</h3>
+                        <a href="https://github.com/Umerrijaz/word-scramble" target="_blank" class="contact__button">
+                            Link <i class='bx bxl-github contact__button-icon'></i>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            
+            <!--=============== CONTACT ===============-->
+            <section class="contact section" id="contact">
+                <span class="section__subtitle">Get in touch</span>
+                <h2 class="section__title">Contact Me</h2>
+
+                <div class="contact__container container grid">
+                    <div class="contact__content">
+                        <h3 class="contact__title">Talk to me</h3>
+
+                        <div class="contact__info">
+                            <div class="contact__card">
+                                <i class='bx bx-mail-send contact__card-icon'></i>
+                                <h3 class="contact__card-title">Email</h3>
+                                <span class="contact__card-data">umerijaaz@protonmail.com</span>
+
+                                <!-- Insert your original email -->
+                                <a href="umerijaaz@protonmail.com" target="_blank" class="contact__button">
+                                    Write me <i class='bx bx-right-arrow-alt contact__button-icon'></i>
+                                </a>
+                            </div>
+
+                            <div class="contact__card">
+                                <i class='bx bxl-instagram contact__card-icon' ></i>
+                                <h3 class="contact__card-title">Instagram</h3>
+                                <span class="contact__card-data">Username: umerijaaz</span>
+
+                                <!-- Insert a real url -->
+                                <a href="https://www.instagram.com/umerijaaz/" target="_blank" class="contact__button">
+                                    Write me <i class='bx bx-right-arrow-alt contact__button-icon'></i>
+                                </a>
+                            </div>
+
+                            <div class="contact__card">
+                                <i class='bx bxl-messenger contact__card-icon' ></i>
+                                <h3 class="contact__card-title">Pinterest</h3>
+                                <span class="contact__card-data">Username: umerrijaaz</span>
+
+                                <!-- Insert your brand name or profile -->
+                                <a href="https://www.pinterest.de/umerrijaaz/" target="_blank" class="contact__button">
+                                    Write me <iconify-icon icon="ph:pinterest-logo-bold"></iconify-icon>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact__content">
+                        <h3 class="contact__title">Write me your project</h3>
+
+                        <form action="" class="contact__form">
+                            <div class="contact__form-div">
+                                <label class="contact__form-tag">Names</label>
+                                <input type="text" placeholder="Insert your name" class="contact__form-input">
+                            </div>
+
+                            <div class="contact__form-div">
+                                <label class="contact__form-tag">Mail</label>
+                                <input type="email" placeholder="Insert your email" class="contact__form-input">
+                            </div>
+
+                            <div class="contact__form-div contact__form-area">
+                                <label class="contact__form-tag">Project</label>
+                                <textarea name="" id="" cols="30" rows="10" placeholder="Write your project" class="contact__form-input"></textarea>
+                            </div>
+
+                            <button class="button">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!--=============== FOOTER ===============-->
+        <footer class="footer">
+            <div class="footer__container container">
+                <h1 class="footer__title">Umer</h1>
+
+                <ul class="footer__list">
+                    <li>
+                        <a href="#home" class="footer__link">Home</a>
+                    </li>
+                    <li>
+                        <a href="#work" class="footer__link">Projects</a>
+                    </li>
+                    <li>
+                        <a href="#skills" class="footer__link">Skills</a>
+                    </li>
+                </ul>
+
+                <ul class="footer__social">
+                    <a href="umerijaaz@protonmail.com" target="_blank" class="footer__social-link">
+                                <i class='bx bx-mail-send'></i>
+                    </a>
+                    <a href="https://www.instagram.com/" target="_blank" class="footer__social-link">
+                        <i class='bx bxl-instagram' ></i>
+                    </a>
+                    <a href="https://github.com/Umerrijaz?tab=repositories" target="_blank" class="home__social-link">
+                        <i class='bx bxl-github'></i>
+                    </a>
+                </ul>
+
+            </div>
+        </footer>
+
+        <!--=============== SCROLLREVEAL ===============-->
+        <script src="assets/js/scrollreveal.min.js"></script>
+
+        <!--=============== SWIPER JS ===============-->
+        <script src="assets/js/swiper-bundle.min.js"></script>
+
+        <!--=============== MIXITUP FILTER ===============-->
+        <script src="assets/js/mixitup.min.js"></script>
+
+        <!--=============== MAIN JS ===============-->
+        <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
